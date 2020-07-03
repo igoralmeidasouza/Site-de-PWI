@@ -8,21 +8,49 @@
     <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <script src="https://kit.fontawesome.com/ca09158aed.js" crossorigin="anonymous"></script>
     <title>Portifolio</title>
 </head>
 
 <body>
     <div class="container">
+
+        <div class="hamburger">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>fechar</span>
+        </div>
+
         <header>
             <div class="img-wrapper">
                 <img src="imagens/bg.jpg" alt=""> 
             </div>
             <div class="banner"> 
-                <h1>Pro player de Minecraft</h1>
-                <p>Igor Almeida</p>
+                <h1>Server dedicado de Minecraft</h1>
+                <p>Jogue com seus amigos em apenas alguns clicks</p>
                 <button>Saiba mais</button>
             </div>
         </header>
+
+        <div class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Planos mensais</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Minecraft Wiki</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Server Hosting</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+            </div>
+        </div>
     </div>
 </body>
+
+<script src="script.js"></script>
 </html>
