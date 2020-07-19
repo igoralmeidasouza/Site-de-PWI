@@ -311,6 +311,7 @@ header {
     width: 18rem;
     height: 30rem;
     position: relative;
+    padding-bottom: 2rem;
 }
 .card-img-wrapper{
     width: 100%;
@@ -340,6 +341,7 @@ header {
     padding: 2rem;
     text-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0, 0.4);
     transition: all .3s;
+
 }
 
 .card-info h2{
