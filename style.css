@@ -611,3 +611,13 @@ footer{
     color: white;
     box-shadow: 0 0 1rem 0.3rem#00000099;
 }
+
+.espacamento{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#mods{
+    width: 95%;
+}

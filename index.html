@@ -194,16 +194,42 @@
             <div class="orcamento-wrapper">
                 <h1>Adicione Mods</h1>
                 <form>
+                    <label for="Quantidade">Servidor</label>
+                    <div class="wrapper-servidor">
+                        <div>
+                            <input type="radio" name="layout" id="layout-yes">
+                            <label for="layout-yes">Ferro</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="layout" id="layout-yes">
+                            <label for="layout-yes">Ouro</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="layout" id="layout-yes">
+                            <label for="layout-yes">RedStone</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="layout" id="layout-yes">
+                            <label for="layout-yes">Esmeralda</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="layout" id="layout-yes">
+                            <label for="layout-yes">Diamante</label>
+                        </div>
+                    </div>
                     <label for="Quantidade">Quantidade de Mods</label>
-                    <input type="range" name="prazo" id="mods" min="1" max="10"> 
-                   
-                    <label for="Servidor">Servidor</label>
-                    <input type="range" name="prazo" id="servidor" min="1" max="5">
+
+                    <div class="espacamento">    
+                        <input type="range" name="Quantidade" id="mods" min="1" max="5"> 
+                        <label class="qtde-mods">0</label>
+                    </div>
+                        
                     <label id="preco">R$ 0,00</label>
                     <button class="btn btn-orcamento" type="submit">Enviar</button>
                 </form>
             </div>
         </section>
+        
         <footer>
             <div class="footer-content">
                 <p>
