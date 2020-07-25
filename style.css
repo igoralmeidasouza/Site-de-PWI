@@ -17,6 +17,10 @@
     --font-secundary: VT323, serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .hamburger{
     /* background-color: red; */
     width: 2rem;
@@ -29,6 +33,7 @@
     flex-direction: column;
     justify-content: space-around;
     cursor: pointer;
+    z-index: 151;
 }
 
 .show-menu .hamburger{
@@ -170,6 +175,8 @@ header {
     top: 0;
     right: -20rem;
     transition: all 1s;
+    z-index: 150;
+    box-shadow: 0 0 1rem 0.1rem#00000099;
 }
 
 .show-menu .sidebar{
@@ -225,9 +232,10 @@ header {
 }
 
 .planos{
+    height: 85vh;
     display: grid;
     grid-template-columns: repeat(16,1fr);
-    grid-template-rows: repeat(7,4rem);
+    grid-template-rows: repeat(6,3rem);
     row-gap: 3rem;
     
 }
@@ -554,4 +562,52 @@ header {
     padding: 1rem;  
     cursor: pointer;
     grid-column: 1;
+}
+
+footer{
+    width: 100%;
+    height: 10rem;
+    background-color: #17181b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content p{
+    font-family: Muli;
+    color: #a7a7a7;
+    font-size: 1.2rem;
+}
+
+.social-list a{
+    margin: 0 2rem;
+    color: #a7a7a7;
+    font-size: 1.3rem;
+}
+
+.social-list ul{
+    display: flex;
+}
+
+#link-topo{
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    width: 3rem;
+    height: 3rem;
+    background: #348d31;
+    border-color: #286626;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: white;
+    box-shadow: 0 0 1rem 0.3rem#00000099;
 }
