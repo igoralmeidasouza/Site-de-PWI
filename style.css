@@ -349,14 +349,16 @@ header {
     font-size: 2rem;    
     font-weight: 500;
     color: #eee;
+    padding-bottom: 1.5rem;
 }
 
 
 .card-info h3{
     font-family: Josefin Slab;
     font-weight: 500;
-    color: #eee;
+    color: rgba(0, 254, 0, 0.9);
     margin-bottom: 1.5;
+    padding-bottom: 1rem;
 }
 .card-info p{
     font-family: josefin slab;
